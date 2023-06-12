@@ -1,0 +1,1229 @@
+@font-face {
+    font-family: "Danablack";
+    src: url(fonts/Dana/Dana-Black.ttf);
+}
+
+@font-face {
+    font-family: "Danabold";
+    src: url(fonts/Dana/Dana-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Danademibold";
+    src: url(fonts/Dana/Dana-DemiBold.ttf);
+}
+
+@font-face {
+    font-family: "DanaExtrablack";
+    src: url(fonts/Dana/Dana-ExtraBlack.ttf);
+}
+
+@font-face {
+    font-family: "DanaExtrabold";
+    src: url(fonts/Dana/Dana-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Danafat";
+    src: url(fonts/Dana/Dana-Fat.ttf);
+}
+
+@font-face {
+    font-family: "Danahairline";
+    src: url(fonts/Dana/Dana-Hairline.ttf);
+}
+
+@font-face {
+    font-family: "Danaheavy";
+    src: url(fonts/Dana/Dana-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "Danalight";
+    src: url(fonts/Dana/Dana-Light.ttf);
+}
+
+@font-face {
+    font-family: "Danameduim";
+    src: url(fonts/Dana/Dana-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Danaregular";
+    src: url(fonts/Dana/Dana-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Danathin";
+    src: url(fonts/Dana/Dana-Thin.ttf);
+}
+
+@font-face {
+    font-family: "Danaultralight";
+    src: url(fonts/Dana/Dana-UltraLight.ttf);
+}
+
+@font-face {
+    font-family: "fanumblack";
+    src: url(fonts/fanum/DanaFaNum-Black.ttf);
+}
+
+@font-face {
+    font-family: "fanumbold";
+    src: url(fonts/fanum/DanaFaNum-Bold.ttf);
+}
+
+@font-face {
+    font-family: "fanumdemibold";
+    src: url(fonts/fanum/DanaFaNum-DemiBold.ttf);
+}
+
+@font-face {
+    font-family: "fanumextrablack";
+    src: url(fonts/fanum/DanaFaNum-ExtraBlack.ttf);
+}
+
+@font-face {
+    font-family: "fanumextrabold";
+    src: url(fonts/fanum/DanaFaNum-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "fanumfat";
+    src: url(fonts/fanum/DanaFaNum-Fat.ttf);
+}
+
+@font-face {
+    font-family: "fanumhairline";
+    src: url(fonts/fanum/DanaFaNum-Hairline.ttf);
+}
+
+@font-face {
+    font-family: "fanumheavy";
+    src: url(fonts/fanum/DanaFaNum-Heavy.ttf);
+}
+
+@font-face {
+    font-family: "fanumlight";
+    src: url(fonts/fanum/DanaFaNum-Light.ttf);
+}
+
+@font-face {
+    font-family: "fanumMedium";
+    src: url(fonts/fanum/DanaFaNum-Medium.ttf);
+}
+
+@font-face {
+    font-family: "fanumregular";
+    src: url(fonts/fanum/DanaFaNum-Regular.ttf);
+}
+
+@font-face {
+    font-family: "fanumThin";
+    src: url(fonts/fanum/DanaFaNum-Thin.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+    width: 1200px;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    margin-right: 180px;
+}
+
+.header ul li {
+    font-family: "Danaregular";
+    padding: 0 15px;
+}
+
+.header ul li a {
+    color: #555;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.header ul li a:hover {
+    color: #ff5722;
+}
+
+.banner {
+    margin-right: 130px;
+}
+
+.btn {
+    background-color: #fe6533;
+    color: #fff;
+    padding: 12px 35px;
+    border-radius: 8px;
+    font-family: "Danaregular";
+    font-size: 1rem;
+    margin-right: 15px;
+}
+
+.btn:hover {
+    transform: scale(.98);
+}
+
+svg {
+    cursor: pointer;
+}
+
+
+.header_bottom .main_right {
+    background-image: linear-gradient(51deg, rgba(23, 26, 60, .7) 5%, rgba(23, 26, 60, .3) 95%);
+    border-radius: 20px;
+    padding: 25px;
+    width: 528px;
+    margin-top: -380px;
+    height: auto;
+    margin-right: 100px;
+    backdrop-filter: blur(10px);
+}
+
+.header_bottom .main_right .tittle {
+    color: #fff;
+    font-family: "Danaregular";
+    font-size: 50px;
+}
+
+.header_bottom .main_right .sub-tiitle {
+    color: #fff;
+    font-family: "Danaregular";
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.button_container .btn_passenger img {
+    height: 24px;
+    width: 24px;
+}
+
+.bottom_header__container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.bottom_header__container .banner_container {
+    width: 100%;
+    height: auto;
+}
+
+.bottom_header__container .banner_container img {
+    width: 100%;
+    height: 100%;
+}
+
+.bottom_header__container .main-container {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-container .main-right {
+    background-image: linear-gradient(51deg, rgba(23, 26, 60, .7) 5%, rgba(23, 26, 60, .3) 95%);
+    border-radius: 20px;
+    padding: 25px;
+    width: 528px;
+    margin-right: 10%;
+}
+
+.main-container .main-left {
+    width: 400px;
+    height: 600px;
+    margin-top: 280px;
+    margin-left: 80px;
+}
+
+.main-container .main-left img {
+    width: 100%;
+    height: 100%;
+}
+
+.main-container .main-right .tittle {
+    color: #fff;
+    font-family: "Danaregular";
+    font-size: 50px;
+}
+
+
+.main-container .main-right .sub_tittle {
+    color: #fff;
+    font-family: "Danaregular";
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.main-container .main-right .button_container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container .main-right .button_container .btn-passenger {
+    width: calc(39.333333% - -50px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container .main-right .button_container .btn-passenger a {
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
+    margin: 10px;
+    border-radius: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Danaregular";
+    color: #000;
+}
+
+.main-container .main-right .button_container .btn-passenger a img {
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+}
+
+.main-container .main-right .button_container .btn-passenger:nth-child(3) a {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.main-container .main-right .button_container .btn-passenger:nth-child(4) a {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.main-container .main-right .button_container .btn-passenger:nth-child(4) a img {
+    margin-right: -50px;
+    margin-left: 20px;
+}
+
+.services {
+    width: 1200px;
+    font-family: "Danaregular";
+    margin: 80px auto;
+    border: solid #ddd;
+    border-width: 0 0 1px;
+    padding-bottom: 45px;
+    padding-top: 30px;
+}
+
+.services .content h1 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 45px;
+    padding-right: 95px;
+    font-family: "Danabold";
+}
+
+.services .img_continer {
+    width: 95px;
+    height: 95px;
+    cursor: pionter;
+}
+
+.services .img_continer .imgbox img {
+    opacity: 0.4;
+    width: 100%;
+    height: 100%;
+}
+
+.services .img_continer .imgbox img:hover {
+    opacity: 1;
+}
+
+.services .img_continer .imgbox {
+    text-align: center;
+    cursor: pointer;
+    color: #5e5e5e;
+}
+
+
+.services .img_continer .imgbox p {
+    color: #5e5e5e;
+}
+
+.services .main_img_container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+
+.information_container {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding: 20px 60px 20px 60px;
+    margin-top: 40px;
+}
+
+.information_container .iforamtion_content {
+    width: 50%;
+    padding: 20px;
+    margin-top: -60px;
+}
+
+.information_container .iforamtion_content P {
+    line-height: 33px;
+    padding-left: 83px;
+    font-size: 18px;
+}
+
+.information_container .iforamtion_content h2 {
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.information_container .information_img {
+    width: 50%;
+    padding: 20px;
+}
+
+.information_container .information_img img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.conatiner .mac_container {
+    display: flex;
+    width: 1200px;
+    padding: 6% 10%;
+    justify-content: space-between;
+}
+
+.conatiner .mac_container .mac_right {
+    width: 50%;
+    font-family: "DanaRegular";
+}
+
+.conatiner .mac_container .mac_right .content h1 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.conatiner .mac_container .mac_right .content {
+    margin-left: 20px;
+}
+
+.conatiner .mac_container .mac_right .content p {
+    color: #333;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+.conatiner .mac_container .mac_left {
+    width: 45%;
+}
+
+.conatiner .mac_container .mac_left img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.btn1 {
+    border-radius: 8px;
+    width: 210px;
+    height: 50px;
+    background-color: #fe6533;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+.conatiner .mac_container .mac_right .content .link {
+    color: #ff5722;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.mac_container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    padding: 6% 10%;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.mac_container1 .mac_right {
+    width: 50%;
+    font-family: "DanaREgular";
+}
+
+.mac_container1 .mac_left {
+    width: 50%;
+}
+
+.mac_container1 .mac_left img {
+    width: 100%;
+}
+
+.mac_container1 .mac_right .content h1 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.mac_container1 .mac_right .content {
+    margin-right: 34px;
+    padding-right: 20px;
+}
+
+.mac_container1 .mac_right .content p {
+    color: #333;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+.parallex {
+    background-image: url("tapsi_ir/parallax.jpeg");
+    background-attachment: fixed !important;
+    height: 180px;
+    padding: 20px 10%;
+    background-color: green;
+    color: #fff;
+    background-size: cover;
+    font-family: "DanaREgular";
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.parallex .content-container {
+    width: 100%;
+}
+
+
+.parallex .content-container .content-wrapper .content1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+    width: 24.5%;
+}
+
+.parallex .content-container .content-wrapper .content1 .tittle {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Danabold";
+}
+
+.parallex .content-container .content-wrapper .content1 .sub-tittle {
+    display: none;
+}
+
+.content-container .content-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.divar {
+    width: 2px;
+    height: 54px;
+    background-color: #fff;
+}
+
+.parallex .content-container .content-wrapper .content1:hover .sub-tittle {
+    display: block;
+}
+
+.drivers {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.drivers .drivers_left {
+    width: 45%;
+}
+
+.drivers .drivers_right {
+    width: 50%;
+    font-family: "DanaRegular";
+}
+
+.drivers .drivers_left img {
+    width: 100%;
+    border-radius: 12px;
+    margin-right: 8%;
+}
+
+.drivers .drivers_right .content h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "Danabold";
+}
+
+.drivers .drivers_right .content p {
+    color: #4d4d4d;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.drivers .drivers_right .content h3 {
+    color: #4d4d4d;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.drivers .drivers_right .content ul li {
+    color: #4d4d4d;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.links_wrapper {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.links_wrapper a {
+    /* display: inline-block; */
+    width: 50%;
+    padding: 14px 20px;
+    background-color: #0065dc;
+    color: #fff;
+    border-radius: 12px;
+}
+
+.links_wrapper a:nth-child(2) {
+    margin-right: 10px;
+}
+
+.tapsi_information {
+    width: 100%;
+    padding: 8% 10%;
+}
+
+
+.tapsi_information h2 {
+    color: #000 !important;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    font-family: "DanaRegular";
+}
+
+.tapsi_information a {
+    padding: 25px;
+    width: 33%;
+    display: inline-block;
+    direction: rtl;
+    border-radius: 8px;
+}
+
+
+.tapsi_information a:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .1);
+}
+
+.tapsi_information a h3 {
+    color: #333 !important;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0;
+    font-family: "DanaRegular";
+}
+
+.tapsi_information a p {
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    color: #9b9b9b !important;
+    display: -webkit-box;
+    font-size: 18px;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: justify;
+    font-family: "DanaRegular";
+}
+
+.tapsi_information a img {
+    width: 100%;
+    border-radius: 12px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.top_footer {
+    background: #f8f8f9 url("tapsi_ir/map-back.svg") no-repeat;
+    padding: 40px 10%;
+}
+
+.top_footer h3 {
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    font-family: "DanaRegular";
+}
+
+.top_footer .city_container {
+    display: flex;
+    gap: 40px;
+    width: 85%;
+    flex-wrap: wrap;
+}
+
+.top_footer .city_container .city_details {
+    font-family: "Danalight";
+}
+
+
+
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 5% 10%;
+}
+
+footer {
+    font-size: 14px;
+    line-height: 30px;
+    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer footer .footer-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer footer .footer-col a {
+    color: #fff;
+    font-family: "DanaRegular";
+    padding-bottom: 10px;
+    transition: 0.3s;
+}
+
+.footer footer .footer-col a:hover {
+    color: #ff5722;
+    cursor: pointer;
+}
+
+.footer footer .footer-col h6 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: "DanaRegular";
+}
+.footer footer .brand-col h3 {
+    font-family: "Danalight";
+    font-size: 12px;
+    margin-bottom: 10px;
+    line-height: 30px;
+}
+
+.footer footer .brand-col p {
+    font-family: "Danalight";
+    font-size: 12px;
+    color: #acacac;
+    line-height: 30px;
+}
+
+.footer footer .brand-col {
+    width: 15%;
+}
+
+.footer footer .brand-col img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.social .social_container a img {
+    width: 20px;
+    height: 20px;
+}
+
+.social h3 {
+    font-family: "Danalight";
+     font-weight: 100;
+     margin-bottom: 10px;
+     margin-top: 10px;
+     font-size: 14px;
+}
+
+.social .social_container {
+    gap: 20px;
+    display: flex;
+}
+
+header span {
+    display: none;
+}
+
+/* responsive website */
+
+@media (max-width:650px) {
+
+.conatiner {
+    overflow: hidden;
+}
+header {
+    width: 100%;
+}
+
+header ul {
+    display: none;
+}
+
+header a {
+    display: none;
+}
+
+.banner {
+    margin-right: 0;
+}
+.bottom_header__container .main-container {
+    width: 100%;
+    height: auto;
+}
+.bottom_header__container .banner_container img { 
+display: none;
+}
+.bottom_header__container .banner_container {
+    width: 100%;
+    background-image: url("tapsi_ir/banner-mobile.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 520px;
+}
+.main-container .main-left {
+    display: none;
+}
+
+.main-container .main-right {
+    width: 74%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.main-container .main-right .tittle {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.main-container .main-right .sub_tittle {
+    font-size: 20px;
+}
+
+.main-container .main-right .button_container .btn-passenger {
+    width: calc(69.333333% - -50px);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header span {
+    display: block;
+    cursor: pointer;
+    font-size: 19px;
+    margin-right: 285px;
+}
+
+.services {
+    width:100%;
+    overflow-x: scroll;
+    padding-top: 0;
+    margin-top: 25px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.services .content h1 {
+    padding-right: 20px;
+    font-size: 22px;
+}
+
+.services .main_img_container {
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.services .img_continer .imgbox {
+    width: 95px;
+}
+
+.information_container {
+    padding: 10px;
+    width: 100%;
+    margin-top: 60px;
+    flex-direction: column;   
+}
+
+.information_container .iforamtion_content h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.information_container .iforamtion_content {
+    width: 100%;
+}
+
+.information_container .iforamtion_content P {
+    font-size: 16px;
+    line-height: 33px;
+    padding-left: 0;
+}
+
+.information_container .information_img {
+    display: none;
+}
+
+.conatiner .mac_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.conatiner .mac_container .mac_left {
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.conatiner .mac_container .mac_right {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.conatiner .mac_container .mac_right .content h1 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.conatiner .mac_container .mac_right .content p {
+    color: #333;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+.conatiner .mac_container .mac_right .content .link {
+    font-size: 15px;
+        color: #ff5722;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.btn1 {
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    background-color: #fe6533;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.mac_container1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+}
+.mac_container1 .mac_right {
+    width: 100%;
+}
+
+.mac_container1 .mac_left {
+    width: 100%;
+}
+
+.mac_container1 .mac_right .content {
+    margin-right: 0;
+    padding-right: 0;
+    margin-top: 20px;
+}
+
+.mac_container1 .mac_right .content h1 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.mac_container1 .mac_right .content p {
+    color: #333;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+.divar {
+display: none;
+background-color: transparent;
+}
+
+.parallex {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container .content-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.parallex .content-container .content-wrapper .content1 {
+    width: 100%;
+}
+
+.parallex .content-container .content-wrapper .content1 .tittle {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "DanaRegular";
+}
+
+.parallex .content-container {
+    height: auto;
+}
+
+.parallex .content-container .content-wrapper .content1 .sub-tittle {
+    font-size: 15px;
+}
+
+.drivers {
+    display: flex;
+    padding: 0 5%;
+    width: 100%;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+
+.drivers .drivers_left {
+    width: 100%;
+}
+
+.drivers .drivers_right {
+    width: 100%;
+}
+
+.drivers .drivers_left img {
+    margin-right: 0;
+}
+
+.drivers .drivers_right .content h2 {
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-family: "Danabold";
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+.drivers .drivers_right .content p {
+    color: #4d4d4d;
+    font-size: 15px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.drivers .drivers_right .content h3 {
+    color: #4d4d4d;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.drivers .drivers_right .content ul li {
+    color: #4d4d4d;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.links_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+    width: 100%;
+    align-items: center;
+}
+
+.links_wrapper a {
+    width: 50%;
+    padding: 14px 20px;
+    background-color: #0065dc;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tapsi_information {
+    width: 100%;
+    padding: 30px;
+}
+
+.tapsi_information h2 {
+    color: #000 !important;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: "DanaRegular";
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapper a {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.tapsi_information a h3 {
+    color: #333 !important;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 10px 0;
+    font-family: "DanaRegular";
+}
+
+
+.tapsi_information a p {
+    font-size: 16px;
+}
+
+.top_footer {
+    display: none;
+}
+
+footer {
+    width: 100%;
+    flex-direction: column;
+}
+
+.footer footer .brand-col {
+    width: 100%;
+}
+
+.footer footer .brand-col img {
+    width: 30%;
+}
+
+.footer footer .brand-col p {
+    display: none;
+}
+
+.social .social_container {
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer footer .footer-col a {
+    font-size: 14px;
+}
