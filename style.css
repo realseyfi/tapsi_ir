@@ -832,4 +832,431 @@ header .fa {
 }
 
 /* responsive website */
+/* responsive website */
+
+@media (max-width: 650px) {
+    
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .drivers {
+        display: flex;
+        padding: 0 5%;
+        width: 100%;
+        margin-top: 40px;
+        align-items: start;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .conatiner {
+        overflow: hidden;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    header ul {
+        display: none;
+    }
+
+    header a {
+        display: none;
+    }
+
+    .banner {
+        margin-right: 0;
+    }
+
+    .bottom_header__container .main-container {
+        width: 100%;
+        height: auto;
+    }
+
+    .bottom_header__container .banner_container img {
+        display: none;
+    }
+
+    .bottom_header__container .banner_container {
+        width: 100%;
+        background-image: url("tapsi_ir/banner-mobile.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 520px;
+    }
+
+    .main-container .main-left {
+        display: none;
+    }
+
+    .main-container .main-right {
+        width: 95%;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .main-container .main-right .tittle {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .main-container .main-right .sub_tittle {
+        font-size: 17px;
+    }
+
+    .main-container .main-right .button_container .btn-passenger {
+        width: calc(71.333333% - -50px);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header span {
+        display: block;
+        cursor: pointer;
+        font-size: 19px;
+        margin-right: 285px;
+    }
+
+    .services {
+        width: 100%;
+        overflow-x: scroll;
+        padding-top: 0;
+        margin-top: 25px;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .services .content h1 {
+        padding-right: 20px;
+        font-size: 22px;
+    }
+
+    .services .main_img_container {
+        width: 100%;
+        overflow-x: scroll;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 35px;
+    }
+
+    .services .img_continer .imgbox {
+        width: 95px;
+    }
+
+    .information_container {
+        padding: 10px;
+        width: 100%;
+        margin-top: 60px;
+        flex-direction: column;
+    }
+
+    .information_container .iforamtion_content h2 {
+        font-size: 20px !important;
+        font-weight: bold !important;
+    }
+
+    .information_container .iforamtion_content {
+        width: 100%;
+    }
+
+    .information_container .iforamtion_content P {
+        font-size: 16px;
+        line-height: 33px;
+        padding-left: 0;
+    }
+
+    .information_container .information_img {
+        display: none;
+    }
+
+    .conatiner .mac_container {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .conatiner .mac_container .mac_left {
+        width: 85%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .conatiner .mac_container .mac_right {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .mac_container1 .mac_right .content h1 {
+        font-weight: 700;
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+
+    .conatiner .mac_container .mac_right .content p {
+        color: #333;
+        font-size: 16px;
+        line-height: 32px;
+        text-align: justify;
+    }
+
+    .conatiner .mac_container .mac_right .content .link {
+        font-size: 15px;
+        color: #ff5722;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .btn1 {
+        border-radius: 8px;
+        width: 200px;
+        height: 50px;
+        background-color: #fe6533;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 15px;
+    }
+
+    .mac_container1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
+
+.mac_container1 .mac_right {
+    width: 100%;
+}
+
+.mac_container1 .mac_left {
+    width: 100%;
+}
+
+.mac_container1 .mac_right .content {
+    margin-right: 0;
+    padding-right: 0;
+    margin-top: 19px;
+}
+
+.conatiner .mac_container .mac_right .content h1 {
+    font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+.mac_container1 .mac_right .content p {
+    color: #333;
+    font-size: 15px;
+    line-height: 32px;
+    text-align: justify;
+}
+
+.divar {
+    display: none;
+    background-color: transparent;
+}
+
+.parallex {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-container .content-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.parallex .content-container .content-wrapper .content1 {
+    width: 100%;
+}
+
+.parallex .content-container .content-wrapper .content1 .tittle {
+    font-size: 16px;
+    font-weight: 100;
+    font-family: "DanaRegular";
+}
+
+.parallex .content-container {
+    height: auto;
+}
+
+.parallex .content-container .content-wrapper .content1 .sub-tittle {
+    font-size: 15px;
+}
+
+
+
+.drivers .drivers_left {
+    width: 100%;
+}
+
+.drivers .drivers_right {
+    width: 100%;
+}
+
+.drivers .drivers_left img {
+    margin-right: 0;
+}
+
+.drivers .drivers_right .content h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "Danabold";
+    padding-left: 20px;
+    margin-top: 40px;
+}
+
+.drivers .drivers_right .content p {
+    color: #4d4d4d;
+    font-size: 15px;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+.drivers .drivers_right .content h3 {
+    color: #4d4d4d;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.drivers .drivers_right .content ul li {
+    color: #4d4d4d;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.links_wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+    width: 100%;
+    align-items: center;
+}
+
+.links_wrapper a:nth-child(2) {
+    margin-right: 0;
+}
+
+.links_wrapper a {
+    width: 70%;
+    padding: 14px 20px;
+    background-color: #0065dc;
+    color: #fff;
+    border-radius: 12px;
+    font-size: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tapsi_information {
+    width: 100%;
+    padding: 0px;
+}
+
+.tapsi_information h2 {
+    color: #000 !important;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-family: "DanaRegular";
+    margin-right: 46px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.wrapper a {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.tapsi_information a h3 {
+    color: #333 !important;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 10px 0;
+    font-family: "DanaRegular";
+}
+
+
+.tapsi_information a p {
+    font-size: 16px;
+}
+
+.main-container .main-right .button_container .btn-passenger:nth-child(4) a img {
+    margin-right: -23px;
+    margin-left: 20px;
+}
+
+.top_footer {
+    display: none;
+}
+
+footer {
+    width: 100%;
+    flex-direction: column;
+}
+
+.footer footer .brand-col {
+    width: 100%;
+}
+
+.footer footer .brand-col img {
+    width: 30%;
+}
+
+.footer footer .brand-col p {
+    display: none;
+}
+
+.social .social_container {
+    width: 100%;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer footer .footer-col a {
+    font-size: 14px;
+}
+
 
